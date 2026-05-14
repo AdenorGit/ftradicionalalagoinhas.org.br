@@ -1,0 +1,19 @@
+{
+    "name": "adenor/ftradicionalalagoinhas.org.br",
+    "description": "Site da Fanfarra Tradicional de Alagoinhas",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AdenorGit",
+            "email": "adenor@gmail.com"
+        }
+    ],
+    "require": {
+        "pecee/simple-router": "^5.4"
+    }
+}

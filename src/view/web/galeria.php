@@ -3,9 +3,7 @@
 
 <main class="pt-5">
         
-    <?php include DIR_INCLUDE . 'carousel.php'; ?>
-
-    <?php include DIR_INCLUDE . 'card.php'; ?>
+    <h1>GALERIA</h1>
 
 </main>
 

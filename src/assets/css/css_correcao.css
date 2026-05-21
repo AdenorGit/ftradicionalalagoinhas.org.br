@@ -1,0 +1,16 @@
+.bg_principal {
+    background-color: rgb(102, 5, 5);
+}
+
+.bg_input_01 {
+    background-color: rgb(51, 4, 4);
+}
+
+.bg_input_01:focus {
+    background-color: rgb(78, 6, 6);
+}
+
+.txt_light {
+    color: rgb(149, 127, 127);
+}
+

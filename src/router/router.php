@@ -10,5 +10,6 @@ SimpleRouter::setDefaultNamespace('\src\controllers');
 // });
 
 SimpleRouter::get('/', [WebController::class, 'start']);
+SimpleRouter::get('/galeria', [WebController::class, 'galeria']);
 
 SimpleRouter::start();

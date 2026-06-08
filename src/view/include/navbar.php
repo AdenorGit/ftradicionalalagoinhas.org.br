@@ -1,3 +1,7 @@
+<?php
+    $pagina_atual = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+?>
+
 <header class="mb-5">
 
     <nav class="navbar navbar-expand-lg bg_principal fixed-top shadow-sm" data-bs-theme="dark"> 
@@ -15,11 +19,23 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0"> 
 
                   <li class="nav-item"> 
-                    <a class="nav-link active" aria-current="page" href="/">Home</a> 
+                    <a class="nav-link <?= $pagina_atual == '/' ? 'active' : '' ?>" aria-current="page" href="/">Home</a> 
                   </li> 
 
                   <li class="nav-item"> 
-                    <a class="nav-link" href="/galeria">Galeria</a> 
+                    <a class="nav-link <?= $pagina_atual == '/galeria' ? 'active' : '' ?>" href="/galeria">Galeria</a> 
+                  </li> 
+
+                  <li class="nav-item"> 
+                    <a class="nav-link <?= $pagina_atual == '/informes' ? 'active' : '' ?>" href="/informes">Informes</a> 
+                  </li> 
+
+                  <li class="nav-item"> 
+                    <a class="nav-link <?= $pagina_atual == '/sobre' ? 'active' : '' ?>" href="/sobre">Sobre Nós</a> 
+                  </li> 
+
+                  <li class="nav-item"> 
+                    <a class="nav-link <?= $pagina_atual == '/institucional' ? 'active' : '' ?>" href="/institucional">Institucional</a> 
                   </li> 
 
                 </ul> 

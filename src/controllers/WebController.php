@@ -15,4 +15,22 @@ class WebController
         $title = "GALERIA";
         include "./src/view/web/galeria.php";
     }
+
+    public function informes()
+    {
+        $title = "INFORMES";
+        include "./src/view/web/informes.php";
+    }
+
+    public function sobre()
+    {
+        $title = "SOBRE NÓS";
+        include "./src/view/web/sobre.php";
+    }
+
+    public function institucional()
+    {
+        $title = "INSTITUCIONAL";
+        include "./src/view/web/institucional.php";
+    }
 }

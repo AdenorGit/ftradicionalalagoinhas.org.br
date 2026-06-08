@@ -1,7 +1,7 @@
 <?php include DIR_INCLUDE . 'head.php'; ?>
 <?php include DIR_INCLUDE . 'navbar.php'; ?>
 
-<main class="pt-5">
+<main class="container pt-5">
         
     <?php include DIR_INCLUDE . 'carousel.php'; ?>
 

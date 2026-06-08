@@ -11,5 +11,8 @@ SimpleRouter::setDefaultNamespace('\src\controllers');
 
 SimpleRouter::get('/', [WebController::class, 'start']);
 SimpleRouter::get('/galeria', [WebController::class, 'galeria']);
+SimpleRouter::get('/informes', [WebController::class, 'informes']);
+SimpleRouter::get('/sobre', [WebController::class, 'sobre']);
+SimpleRouter::get('/institucional', [WebController::class, 'institucional']);
 
 SimpleRouter::start();

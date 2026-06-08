@@ -2,14 +2,17 @@
 
 <script>
 
-  const myCarouselElement = document.querySelector('#myCarousel')
-
-  const carousel = new bootstrap.Carousel(myCarouselElement, {
-    interval: 2000,
-    touch: false
-  })
-
+  if (exampleModal) {
+    exampleModal.addEventListener('show.bs.modal', event => {
+      const button = event.relatedTarget;
+      const recipient = button.getAttribute('data-bs-whatever');
+      const imgModal = document.getElementById('imgModal');
+      imgModal.src = recipient;
+    });
+  }
+  
 </script>
 
 </body>
+
 </html>

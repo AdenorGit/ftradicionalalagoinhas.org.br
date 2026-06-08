@@ -11,6 +11,39 @@
 }
 
 .txt_light {
-    color: rgb(149, 127, 127);
+    color: rgb(139, 101, 101);
 }
 
+.nav-link {
+    color: rgb(139, 101, 101);
+}
+
+.nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.txt_link_escuro {
+    color: rgb(76, 6, 6);
+}
+
+.txt_link_escuro:hover {
+    color: rgb(139, 101, 101);
+}
+
+.txt_escuro {
+    color: rgb(76, 6, 6);
+}
+
+.efeito-galeria {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Cria a animação suave */
+  cursor: pointer;
+}
+
+.efeito-galeria:hover {
+  transform: scale(1.05); /* Aumenta a imagem em 5% */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adiciona sombra preta com opacidade */
+}
+
+.img-peq {
+    max-width: 150px;
+}

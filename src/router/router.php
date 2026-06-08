@@ -15,4 +15,9 @@ SimpleRouter::get('/informes', [WebController::class, 'informes']);
 SimpleRouter::get('/sobre', [WebController::class, 'sobre']);
 SimpleRouter::get('/institucional', [WebController::class, 'institucional']);
 
+SimpleRouter::error(function(){
+    SimpleRouter::response()->redirect('/');
+    exit();
+});
+
 SimpleRouter::start();

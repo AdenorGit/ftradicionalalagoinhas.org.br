@@ -4,8 +4,33 @@
 
       <div class="row g-4">
         
-        <div class="col-12 col-lg-4">
+        <div class="col-6 col-lg-2">
             <img src="/src/assets/img/logo_grande.png" class="d-none d-lg-block img-fluid" alt="logo">
+        </div>
+
+        <div class="col-6 col-sm-4 col-lg-2">
+            <h5 class="text-light mb-3">Redes sociais</h5>
+            <ul class="nav flex-column gap-2">
+
+                <li class="nav-item p-2">
+                    <a href="#" class="nav-link p-0 txt_light " aria-current="page">
+                        <img src="/src/assets/img/ico_fb.png" alt="Facebook" class="icon-social w-15"> Facebook
+                    </a>
+                </li>
+
+                <li class="nav-item p-2">
+                    <a href="#" class="nav-link p-0 txt_light " aria-current="page">
+                        <img src="/src/assets/img/ico_inst.png" alt="Instagram" class="icon-social w-15"> Instagram
+                    </a>
+                </li>
+
+                <li class="nav-item p-2">
+                    <a href="#" class="nav-link p-0 txt_light " aria-current="page">
+                        <img src="/src/assets/img/ico_yout.png" alt="YouTube" class="icon-social w-15"> YouTube
+                    </a>
+                </li>
+
+            </ul>
         </div>
 
         <div class="col-6 col-sm-4 col-lg-2">

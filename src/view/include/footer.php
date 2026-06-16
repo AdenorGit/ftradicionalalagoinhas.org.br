@@ -13,13 +13,13 @@
             <ul class="nav flex-column gap-2">
 
                 <li class="nav-item p-2">
-                    <a href="#" class="nav-link p-0 txt_light " aria-current="page">
+                    <a href="https://www.facebook.com/BandaMarcialTradicional1992" class="nav-link p-0 txt_light " aria-current="page">
                         <img src="/src/assets/img/ico_fb.png" alt="Facebook" class="icon-social w-15"> Facebook
                     </a>
                 </li>
 
                 <li class="nav-item p-2">
-                    <a href="#" class="nav-link p-0 txt_light " aria-current="page">
+                    <a href="https://www.instagram.com/bmtradi1992" class="nav-link p-0 txt_light " aria-current="page">
                         <img src="/src/assets/img/ico_inst.png" alt="Instagram" class="icon-social w-15"> Instagram
                     </a>
                 </li>
